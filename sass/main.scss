@@ -68,6 +68,7 @@ h1,h2,h3,h4,h5,p,span {
             font-size: 20px;
             font-weight: bold;
             letter-spacing: 2px;
+            text-transform: uppercase;
             &.active {
                 color:$global-color-3 !important;
                 background:$global-color-4 !important;
@@ -125,6 +126,14 @@ h1,h2,h3,h4,h5,p,span {
         line-height: 1.64;
         letter-spacing: 2.2px;
         color: #f2ece3;
+    }
+    .card-title {
+        p {
+            font-family: Karla;
+            font-size: 24px;
+            line-height: 1.25;
+            color: #f2ece3;
+        }
     }
     .card-body {
         padding-top:0 !important;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dervla-home-03" transform="translate(-730.000000, -1953.000000)">
+            <g id="bout-the-author" transform="translate(375.000000, 1750.000000)">
+                <g id="Group-3" transform="translate(355.000000, 203.000000)">
+                    <g id="fb">
+                        <path d="M0,32 C0,14.3264 14.2978645,0 31.9338843,0 C49.5699041,0 63.8677686,14.3264 63.8677686,32 C63.8677686,49.6725333 49.5699041,64 31.9338843,64 C14.2978645,64 0,49.6725333 0,32 Z" id="Shape" fill="#3B5998"></path>
+                        <path d="M26.6004879,49.7777778 L33.6810414,49.7777778 L33.6810414,31.9978214 L38.4045602,31.9978214 L39.030303,25.8714597 L33.6810414,25.8714597 L33.6883908,22.8039216 C33.6883908,21.2069717 33.8353773,20.3496732 36.0443757,20.3496732 L38.9967061,20.3496732 L38.9967061,14.2222222 L34.2721375,14.2222222 C28.5974056,14.2222222 26.6004879,17.1949891 26.6004879,22.1928105 L26.6004879,25.8714597 L23.0633609,25.8714597 L23.0633609,31.9989107 L26.6004879,31.9989107 L26.6004879,49.7777778 L26.6004879,49.7777778 Z" id="Path" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

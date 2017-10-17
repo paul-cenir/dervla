@@ -1,0 +1,134 @@
+body {
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, p, span {
+    color: #ffffff;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+}
+
+.container-1 {
+    margin-top: -280px;
+}
+
+.bg-1 {
+    background-image: url(../img/banner.png);
+    background-position: inherit;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.bg-2 {
+    background: #2A2A2A;
+    height: 100%;
+    min-height: 500px;
+}
+
+.header-contaner {
+    background: #000000;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-contaner li a {
+    color: #ffffff;
+    font-family: Antonio-Bold;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header-contaner li a.active {
+    color: #fabe5e !important;
+    background: transparent !important;
+}
+
+.header-title {
+    position: absolute;
+    bottom: -123px;
+}
+
+.header-title h3 {
+    font-family: Antonio-Bold;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.44;
+    letter-spacing: 15px;
+    color: #fabe5e !important;
+}
+
+.col-md-6.second-column {
+    padding-top: 0;
+}
+
+.font-1 {
+    font-family: RunWild;
+    font-size: 42px;
+}
+
+.bt-style-1 p {
+    font-family: Karla;
+    font-size: 24px;
+    color: #f2ece3;
+    font-family: Karla;
+    font-size: 24px;
+    color: #f2ece3;
+}
+
+.container-relatives {
+    position: relative;
+    top: -310px;
+}
+
+.custom-box-1 {
+    background: transparent;
+    border: solid 1px #f2ece3 !important;
+}
+
+.custom-box-1 .card-header {
+    background: transparent;
+    border: none;
+    font-family: Antonio-Bold;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.64;
+    letter-spacing: 2.2px;
+    color: #f2ece3;
+}
+
+.custom-box-1 .card-title p {
+    font-family: Karla;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #f2ece3;
+}
+
+.custom-box-1 .card-body {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.custom-box-1 .card-body p {
+    font-family: Karla;
+    font-size: 24px;
+    color: #f2ece3;
+}
+
+.custom-box-1 .custom-box-1-footer p {
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ee430d;
+}
+
+.mt-custom-1 {
+    margin-top: 11rem !important;
+}
