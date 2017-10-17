@@ -1,0 +1,147 @@
+$primary-color: #ffffff;
+$body-color: #ffffff;
+
+$global-color-1:#000000;
+$global-color-2:#ffffff;
+$global-color-3:#fabe5e;
+$global-color-4:transparent;
+$global-color-5:#f2ece3;
+$global-color-6:#000000;
+$global-color-7:#000000;
+$global-color-8:#000000;
+$global-color-9:#000000;
+$global-color-10:#000000;
+
+
+
+
+
+
+
+
+body {
+    background-color: $body-color;
+}
+
+h1,h2,h3,h4,h5,p,span {
+    color: $primary-color;
+}
+
+.col-centered {
+    display: inline-block ;
+    float: none ;
+}
+.container-1 {
+    margin-top: -280px ;
+}
+.bg-1 {
+    background-image: url(../img/banner.png);
+    background-position: inherit;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.bg-2 {
+    background:#2A2A2A;
+    height: 100%;
+    min-height: 500px;
+}
+
+
+
+
+
+
+.header-contaner {
+    background: $global-color-1;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    li {
+        a {
+            color:$global-color-2;
+            font-family: Antonio-Bold;  
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            &.active {
+                color:$global-color-3 !important;
+                background:$global-color-4 !important;
+            }
+        }
+    } 
+}
+
+
+.header-title {
+    position: absolute;
+    bottom: -123px;
+   h3 {
+    font-family: Antonio-Bold;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.44;
+    letter-spacing: 15px;
+    color:$global-color-3 !important;
+   }
+}
+
+.col-md-6.second-column {
+    padding-top: 0;
+}
+.font-1 {
+    font-family: RunWild;
+    font-size: 42px;
+}
+.bt-style-1 p {
+    font-family: Karla;
+    font-size: 24px;
+    color: $global-color-5;
+    font-family: Karla;
+    font-size: 24px;
+    color: #f2ece3;
+}
+
+
+.container-relatives {
+    position: relative;
+    top: -310px;
+}
+
+
+.custom-box-1 {
+    background: transparent;
+    border: solid 1px #f2ece3!important;
+    .card-header {
+        background: transparent;
+        border: none;
+        font-family: Antonio-Bold;  
+        font-size: 44px;
+        font-weight: bold;
+        line-height: 1.64;
+        letter-spacing: 2.2px;
+        color: #f2ece3;
+    }
+    .card-body {
+        padding-top:0 !important;
+        padding-bottom:0 !important;
+        p {
+            font-family: Karla;
+            font-size: 24px;
+            color: #f2ece3;
+        }
+    }
+    .custom-box-1-footer p {
+        font-family: Karla;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ee430d;
+    }
+}
+.mt-custom-1 {
+    margin-top:11rem!important;
+}
