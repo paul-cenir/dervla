@@ -292,3 +292,9 @@ input.float-input, input.float-input:focus {
     line-height: 0 !important;
     margin-bottom: 30px;
 }
+
+.f-1 {
+    float: left;
+    margin-right: 14px;
+    padding-bottom: 26px;
+}
