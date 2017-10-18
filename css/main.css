@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, p, span {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .header-contaner li a.active {
@@ -83,6 +84,15 @@ h1, h2, h3, h4, h5, p, span {
     color: #f2ece3;
 }
 
+.bt-style-2 p {
+    font-family: Antonio-Bold !important;
+    font-size: 34px !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+    letter-spacing: 1.7px !important;
+    line-height: 16px !important;
+}
+
 .container-relatives {
     position: relative;
     top: -310px;
@@ -109,6 +119,7 @@ h1, h2, h3, h4, h5, p, span {
     font-size: 24px;
     line-height: 1.25;
     color: #f2ece3;
+    font-weight: bold;
 }
 
 .custom-box-1 .card-body {
@@ -131,4 +142,153 @@ h1, h2, h3, h4, h5, p, span {
 
 .mt-custom-1 {
     margin-top: 11rem !important;
+}
+
+.custom-margin-1-plugin-cause p {
+    margin-left: -26px;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #0e626c !important;
+}
+
+.p-m-0 p {
+    margin-bottom: 0;
+}
+
+.custom-card-header {
+    padding: 0;
+    line-height: 56px !important;
+}
+
+.social-icons {
+    margin: auto;
+}
+
+.social-icons [class*="fa fa-"] {
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 40px;
+    margin: auto 3px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+.facebook-bg {
+    background-color: #3b5998;
+}
+
+.twitter-bg {
+    background-color: #4099ff;
+}
+
+.bs-float-label {
+    position: relative;
+    padding: 10px 0;
+}
+
+.bs-float-label > .float-input {
+    margin-top: 2px;
+    height: 55px;
+}
+
+.bs-float-label > .float-input:focus {
+  /*border-color: #f06d06;*/
+}
+
+.bs-float-label > .float-label {
+    position: absolute;
+    top: 3px;
+    font-size: 18px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.32);
+    -webkit-transition: top .5s ease-in-out, opacity .5s ease-in-out;
+  /* For Safari 3.1 to 6.0 */
+    transition: top .5s ease-in-out, opacity .5s ease-in-out;
+    opacity: 0;
+    color: #ffffff;
+    background: transparent;
+}
+
+.bs-float-label > .float-label.show {
+    color: #ffffff;
+    top: -16px;
+    opacity: 1;
+    background: transparent;
+}
+
+input.float-input, input.float-input:focus {
+    border: none;
+    border-radius: 0;
+    font-size: 24px;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 14px 60px;
+    font-size: 20px;
+}
+
+.btn-one {
+    color: #ffffff;
+    background: #ee430d;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-for-input {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.footer-m-top-lie {
+    margin-top: -90px;
+}
+
+.custom-footer {
+    background: #000000;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.custom-footer .row {
+    align-items: center !important;
+}
+
+.bt-style-footer-1 {
+    font-family: Antonio-Bold;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.box-1 {
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    background-color: #f2ece3;
+    padding-top: 22px;
+}
+
+.s-color-1 {
+    color: #ee430d;
+}
+
+.pt-custom-1.pb-5 {
+    padding-top: 190px;
+}
+
+.title-lie {
+    line-height: 0 !important;
+    margin-bottom: 30px;
 }
