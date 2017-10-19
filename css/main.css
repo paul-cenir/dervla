@@ -140,6 +140,11 @@ h1, h2, h3, h4, h5, p, span {
     color: #ee430d;
 }
 
+.custom-box-1-no-b {
+    border: none !important;
+    padding-top: 38px;
+}
+
 .mt-custom-1 {
     margin-top: 11rem !important;
 }
@@ -297,4 +302,12 @@ input.float-input, input.float-input:focus {
     float: left;
     margin-right: 14px;
     padding-bottom: 26px;
+}
+
+.mb-0-custom {
+    margin-bottom: 0;
+}
+
+.mb-0-custom p {
+    margin-bottom: 0;
 }
