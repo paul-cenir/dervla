@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, p, span {
 .custom-box-1 {
     background: transparent;
     border: solid 1px #f2ece3 !important;
+    border-radius: 0 !important;
 }
 
 .custom-box-1 .custom-box-1-footer p {
@@ -119,6 +120,17 @@ h1, h2, h3, h4, h5, p, span {
     line-height: 1.64;
     letter-spacing: 2.2px;
     color: #f2ece3;
+}
+
+.card-header-1 {
+    background: transparent;
+    border: none;
+    font-family: Antonio-Bold;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.64;
+    letter-spacing: 2.2px;
+    color: #ee430d;
 }
 
 .card-title p {
@@ -326,4 +338,13 @@ input.float-input, input.float-input:focus {
 .custom-flex {
     display: flex;
     align-items: center;
+}
+
+.custom-card-1 {
+    background: transparent;
+    border: solid 1px #f2ece3;
+}
+
+.mt-9 {
+    margin-top: 9px;
 }
