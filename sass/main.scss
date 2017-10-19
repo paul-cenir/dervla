@@ -125,34 +125,7 @@ h1,h2,h3,h4,h5,p,span {
 .custom-box-1 {
     background: transparent;
     border: solid 1px #f2ece3!important;
-    .card-header {
-        background: transparent;
-        border: none;
-        font-family: Antonio-Bold;  
-        font-size: 44px;
-        font-weight: bold;
-        line-height: 1.64;
-        letter-spacing: 2.2px;
-        color: #f2ece3;
-    }
-    .card-title {
-        p {
-            font-family: Karla;
-            font-size: 24px;
-            line-height: 1.25;
-            color: #f2ece3;
-            font-weight: bold;
-        }
-    }
-    .card-body {
-        padding-top:0 !important;
-        padding-bottom:0 !important;
-        p {
-            font-family: Karla;
-            font-size: 24px;
-            color: #f2ece3;
-        }
-    }
+    
     .custom-box-1-footer p {
         font-family: Karla;
         font-size: 24px;
@@ -160,6 +133,7 @@ h1,h2,h3,h4,h5,p,span {
         color: #ee430d;
     }
 }
+
 .card-header {
     background: transparent;
     border: none;
@@ -170,6 +144,25 @@ h1,h2,h3,h4,h5,p,span {
     letter-spacing: 2.2px;
     color: #f2ece3;
 }
+.card-title {
+    p {
+        font-family: Karla;
+        font-size: 24px;
+        line-height: 1.25;
+        color: #f2ece3;
+        font-weight: bold;
+    }
+}
+.card-body {
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    p {
+        font-family: Karla;
+        font-size: 24px;
+        color: #f2ece3;
+    }
+}
+
 
 .custom-box-1-no-b {
     border: none !important;
@@ -334,4 +327,16 @@ input.float-input,input.float-input:focus {
     p {
         margin-bottom: 0;
     }
+}
+
+
+.round-circle {
+    border-radius:50%; 
+    width: 47.9px;
+    height: 48px;
+    background-color: #888888;
+}
+.custom-flex {
+    display: flex;
+    align-items: center;
 }
