@@ -140,9 +140,24 @@ h1, h2, h3, h4, h5, p, span {
     color: #ee430d;
 }
 
+.card-header {
+    background: transparent;
+    border: none;
+    font-family: Antonio-Bold;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.64;
+    letter-spacing: 2.2px;
+    color: #f2ece3;
+}
+
 .custom-box-1-no-b {
     border: none !important;
     padding-top: 38px;
+}
+
+.custom-box-2-no-b {
+    border: none !important;
 }
 
 .mt-custom-1 {
@@ -168,7 +183,7 @@ h1, h2, h3, h4, h5, p, span {
     line-height: 56px !important;
 }
 
-.social-icons {
+.m-auto {
     margin: auto;
 }
 
